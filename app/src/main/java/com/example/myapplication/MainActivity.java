@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     Button button0, button1, button2, button3, button4, button5, button6,
             button7, button8, button9, buttonAdd, buttonSub, buttonDivision,
-            buttonMul, button10, buttonC, buttonEqual;
+            buttonMul, button10, buttonC, buttonEqual,buttonCl;
     EditText solution;
     float mValueOne, mValueTwo;
     boolean Addition, Subtract, Multiplication, Division;
@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
         buttonMul = (Button) findViewById(R.id.buttonmul);
         buttonDivision = (Button) findViewById(R.id.buttondiv);
         buttonC = (Button) findViewById(R.id.buttonC);
+        buttonCl = (Button) findViewById(R.id.buttonCl);
         buttonEqual = (Button) findViewById(R.id.buttoneql);
         solution = (EditText) findViewById(R.id.edt1);
 
@@ -193,6 +194,12 @@ public class MainActivity extends AppCompatActivity {
         });
 
         buttonC.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                solution.setText("");
+            }
+        });
+        buttonCl.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 solution.setText("");
