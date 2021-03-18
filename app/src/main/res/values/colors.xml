@@ -6,6 +6,10 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
+    <color name="grey">#212121</color>
+    <color name="orange">#E7BC31</color>
     <color name="white">#FFFFFFFF</color>
     <color name="colorAccent">#DA4439</color>
+    <color name="titlebackgroundcolor">#3232CD</color>
+    <color name="titletextcolor">#FFFF00</color>
 </resources>
