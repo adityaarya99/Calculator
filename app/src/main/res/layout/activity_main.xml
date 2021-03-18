@@ -15,8 +15,9 @@
         android:id="@+id/edt1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="50dp"
+        android:paddingTop="110dp"
         android:textColor="@color/white"
+        android:background="@drawable/edit_text_border"
         android:drawableLeft="@drawable/ic_baseline_keyboard_arrow_right_24"
 
         />
